@@ -1,0 +1,20 @@
+
+oparetor = input("Enter any oparetor (+, -, *, /):")
+num1 = float(input("enter first number:"))
+num2 = float(input("enter second number:"))
+
+if oparetor == "+":
+    print(num1+num2)
+
+elif oparetor == "-":
+    print(num1-num2)
+
+elif oparetor == "*":
+    print(num1*num2)
+
+elif oparetor == "/":
+    print(num1/num2)
+
+else:
+    print(f"{oparetor} is not a valid operator")
+
